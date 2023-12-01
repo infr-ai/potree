@@ -22,6 +22,7 @@ export default [
 				proj4: 'proj4',
 				$: 'jquery',
 				jQuery: 'jquery',
+				TWEEN: path.resolve('libs/tween/Tween'),
 				BinaryHeap: path.resolve('libs/other/BinaryHeap.js')
 			}),
 			nodeResolve(),
