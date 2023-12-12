@@ -16,6 +16,7 @@ jobs:
       - name: Archive potree lib
         uses: actions/upload-artifact@v3
         with:
+          retention-days: 7
           name: potree
           path: |
             build/potree
